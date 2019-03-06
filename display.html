@@ -1,0 +1,80 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<script src = "script.js"></script>
+<body>
+<div>
+    <div id = "right">
+        <div id = "words">
+            <span id = "w0">SCHOOL</span><br>
+            <span id = "w1">HOME</span><br>
+            <span id = "w2">PZEON</span><br>
+            <span id = "w3">CAT</span><br>
+            <span id = "w4">HARD</span><br>
+            <span id = "w5">EASY</span><br> 
+            <span id = "w6">JAVASCRIPT</span><br>
+            <span id = "w7">PYTHON</span><br>
+            <span id = "w8">ANGULAR</span><br>
+            <span id = "w9">ACESOCLOUD</span><br>
+            <span id = "w10">SILICON</span>
+        </div>
+
+        <div id="word">
+            word :
+        </div>
+    </div>  
+
+    <div class="flex-container space-between">
+        <button class = "letters" id = "1" onclick="storeWord(this)" value = 'A'> A </button> 
+        <button class = "letters" id = "2" onclick="storeWord(this)" value = 'B'> B </button> 
+        <button class = "letters" id = "3" onclick="storeWord(this)" value = 'C'> C </button> 
+        <button class = "letters" id = "4" onclick="storeWord(this)" value = 'D'> D </button>
+    </div>
+    <div class="flex-container space-between">
+        <button class = "letters" id = "5" onclick="storeWord(this)" value = 'E'> E </button>
+        <button class = "letters" id = "6" onclick="storeWord(this)" value = 'F'> F </button>
+        <button class = "letters" id = "7" onclick="storeWord(this)" value = 'G'> G </button>
+        <button class = "letters" id = "8" onclick="storeWord(this)" value = 'H'> H </button>
+    </div>
+    <div class="flex-container space-between">
+        <button class = "letters" id = "9" onclick="storeWord(this)" value = 'I'> I </button>
+        <button class = "letters" id = "10" onclick="storeWord(this)" value = 'J'> J </button>
+        <button class = "letters" id = "11" onclick="storeWord(this)" value = 'K'> K </button>
+        <button class = "letters" id = "12" onclick="storeWord(this)" value = 'L'> L </button>
+    </div>
+    <div class="flex-container space-between">
+        <button class = "letters" id = "13" onclick="storeWord(this)" value = 'M'> M </button>
+        <button class = "letters" id = "14" onclick="storeWord(this)" value = 'N'> N </button>
+        <button class = "letters" id = "15" onclick="storeWord(this)" value = 'O'> O </button>
+        <button class = "letters" id = "16" onclick="storeWord(this)" value = 'P'> P </button>
+    </div>
+    <div class="flex-container space-between">
+        <button class = "letters" id = "17" onclick="storeWord(this)" value = 'Q'> Q </button>
+        <button class = "letters" id = "18" onclick="storeWord(this)" value = 'R'> R </button>
+        <button class = "letters" id = "19" onclick="storeWord(this)" value = 'S'> S </button>
+        <button class = "letters" id = "20" onclick="storeWord(this)" value = 'T'> T </button>
+    </div>
+    <div class="flex-container space-between">
+        <button class = "letters" id = "21" onclick="storeWord(this)" value = 'U'> U </button>
+        <button class = "letters" id = "22" onclick="storeWord(this)" value = 'V'> V </button>
+        <button class = "letters" id = "23" onclick="storeWord(this)" value = 'W'> W </button>
+        <button class = "letters" id = "24" onclick="storeWord(this)" value = 'X'> X </button>
+    </div>
+    <div class="flex-container space-between">
+        <button class = "letters" id = "25" onclick="storeWord(this)" value = 'Y'> Y </button>
+        <button class = "letters" id = "26" onclick="storeWord(this)" value = 'Z'> Z </button>
+    </div>
+    
+</div>
+
+<br><br>
+
+    <div id="action">
+        <button class="tabs" id="submit" onclick="submit ()">Submit</button>
+        <button class="tabs" id = "suffle" onclick="generate_random ()">Suffle</button>
+        <button class="tabs" id = "reset" onclick="reset ()">Reset</button>
+        <button class="tabs" id = "score" disabled> score : 0</button>
+        <button class="tabs" id = "timer" disabled> Timer: 60 seconds.</button>
+    </div>
+</body>
